@@ -1,1 +1,1 @@
-# redux-i18n
+# React Redux I18n
