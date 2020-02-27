@@ -1,0 +1,26 @@
+{
+  "name": "react-redux-i18n",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexsandrrh/redux-i18n.git"
+  },
+  "author": "Alexsandrrh <sascha.sadov@yandex.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexsandrrh/redux-i18n/issues"
+  },
+  "homepage": "https://github.com/Alexsandrrh/redux-i18n#readme",
+  "dependencies": {
+    "react-i18nify": "^3.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "prettier": "^1.19.1"
+  }
+}
