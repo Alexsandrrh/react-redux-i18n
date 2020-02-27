@@ -14,15 +14,14 @@ export const ADD_TRANSLATION = type(`ADD_TRANSLATION`);
  * @param locale {String}
  * @return {Object}
  * */
-export const setLocale = locale => dispatch =>
-  dispatch({ type: SET_LOCALE, locale });
+const setLocale = locale => dispatch => dispatch({ type: SET_LOCALE, locale });
 
 /**
  * @name setTranslations
  * @param translations {Object}
  * @return {Object}
  * */
-export const setTranslations = translations => dispatch =>
+const setTranslations = translations => dispatch =>
   dispatch({
     type: SET_TRANSLATIONS,
     translations
@@ -33,8 +32,10 @@ export const setTranslations = translations => dispatch =>
  * @param translation {Object}
  * @return {Object}
  * */
-export const addTranslation = translation => dispatch =>
+const addTranslation = translation => dispatch =>
   dispatch({
     type: ADD_TRANSLATION,
     translation
   });
+
+export const i18nActions = { setLocale, setTranslations, addTranslation };

@@ -2,7 +2,7 @@ import { SET_LOCALE, ADD_TRANSLATION, SET_TRANSLATIONS } from "./actions";
 import { setLocale, setTranslations } from "./index";
 
 /***/
-export function reducer(state = {}, action) {
+export function i18nReducer(state = {}, action) {
   switch (action.type) {
     case SET_LOCALE:
       setLocale(action.locate);
